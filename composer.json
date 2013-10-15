@@ -1,0 +1,6 @@
+{
+    "name": "modeva/private-package",
+    "require": {
+        "monolog/monolog": "1.0.*"
+    }
+}
