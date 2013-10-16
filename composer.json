@@ -1,6 +1,14 @@
 {
     "name": "modeva/private-package",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Dara Dolan",
+            "email": "dara.dolan@modeva.com",
+            "role": "php developer"
+        }],
     "require": {
-        "monolog/monolog": "1.0.*"
+        "monolog/monolog": "1.0.*",
+        "symfony/http-foundation": "2.3.*"
     }
 }
