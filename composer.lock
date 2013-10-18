@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "d3a0363ba158813d89ca83efa843ae33",
+    "hash": "b75e1a0b0c0903b96059244595876faf",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -49,39 +49,60 @@
             "time": "2011-10-24 09:39:02"
         },
         {
-            "name": "phpexcel/phpexcel",
-            "version": "dev-master",
+            "name": "phpoffice/phpexcel",
+            "version": "1.7.9",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ddeboer/phpexcel.git",
-                "reference": "8a3f7a02cfbb0c34b06d66b614762ebe52423dc9"
+                "url": "https://github.com/PHPOffice/PHPExcel.git",
+                "reference": "7a7634fba664249a04fc771df677a9b9f755d7ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddeboer/phpexcel/zipball/8a3f7a02cfbb0c34b06d66b614762ebe52423dc9",
-                "reference": "8a3f7a02cfbb0c34b06d66b614762ebe52423dc9",
+                "url": "https://api.github.com/repos/PHPOffice/PHPExcel/zipball/7a7634fba664249a04fc771df677a9b9f755d7ec",
+                "reference": "7a7634fba664249a04fc771df677a9b9f755d7ec",
                 "shasum": ""
             },
             "require": {
-                "php": ">5.2.0"
+                "ext-xml": "*",
+                "php": ">=5.2.0"
             },
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "PHPExcel": "Classes"
+                    "PHPExcel": "Classes/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GNU"
+                "LGPL"
             ],
-            "description": "PHPExcel - OpenXML - Create Excel2007 documents in PHP - Spreadsheet engine",
+            "authors": [
+                {
+                    "name": "Maarten Balliauw",
+                    "homepage": "http://blog.maartenballiauw.be"
+                },
+                {
+                    "name": "Mark Baker"
+                },
+                {
+                    "name": "Franck Lefevre",
+                    "homepage": "http://blog.rootslabs.net"
+                },
+                {
+                    "name": "Erik Tilt"
+                }
+            ],
+            "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
             "homepage": "http://phpexcel.codeplex.com",
             "keywords": [
+                "OpenXML",
                 "excel",
-                "xls"
+                "php",
+                "spreadsheet",
+                "xls",
+                "xlsx"
             ],
-            "time": "2013-09-10 18:57:03"
+            "time": "2013-05-24 11:57:42"
         }
     ],
     "packages-dev": [
@@ -91,9 +112,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "phpexcel/phpexcel": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],

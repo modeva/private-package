@@ -9,6 +9,6 @@
         }],
     "require": {
         "monolog/monolog": "1.0.*",
-        "phpexcel/phpexcel": "dev-master"
+        "phpoffice/phpexcel": "1.7.9"
     }
 }
