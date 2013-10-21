@@ -10,5 +10,14 @@
     "require": {
         "monolog/monolog": "1.0.*",
         "phpoffice/phpexcel": "1.7.9"
+    },
+
+    "autoload": {
+        "files": [
+            "functions.php"
+        ],
+        "psr-0": {
+            "Acme": ""
+        }
     }
 }
